@@ -7,6 +7,7 @@ Task Description: Develop a packet sniffer tool that captures and analyzes netwo
 Prerequisites: 
 1. Python 3.x: If you don't have Python installed yet, you can download it from python.org.
 2. matplotlib: If you don't have matplotlib library installed yet, you can download it from matplotlib.org.
+3. scapy: If you don't have scapy library installed yet, you can download it from scapy.net.
 
 Features:
 1.	Packet Capture: Captures network packets on a specified interface or all interfaces.
@@ -22,7 +23,7 @@ pip install matplotlib
 3.	Run the script with elevated privileges (required for packet sniffing). For example:
 bash
 sudo python task5.py
-4.	Specify the interface when prompted (e.g., eth0, wlan0, or leave blank for all interfaces).
+4.	Specify the interface when prompted (e.g., eth0, wlan0).
 
 Notes:
 •	Elevated Privileges: Packet sniffing requires administrative/root access.
